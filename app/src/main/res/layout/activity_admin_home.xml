@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/admin_home"
+    tools:context=".AdminHome">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:textSize="40sp"
+        android:layout_marginTop="70dp"
+        android:textAlignment="center"
+        android:textColor="@color/colorText"
+        android:textStyle="bold"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:layout_marginTop="100dp"
+    >
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/admin_addhomestay"
+        android:layout_margin="10dp"
+        android:background="@drawable/add_home"
+        />
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_margin="10dp"
+        android:id="@+id/admin_check_order"
+        android:background="@drawable/check_order"
+        />
+
+
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/admin_addgallery"
+
+            android:background="@drawable/addgallery"
+            />
+
+
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="40dp"
+        android:padding="10dp"
+        android:text="Admin Logout"
+        android:id="@+id/admin_logout"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorText"
+        android:background="@drawable/button"
+        />
+</LinearLayout>

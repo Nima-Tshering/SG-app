@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".HomestayDetials">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/main_layout"
+        >
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/sliderone"
+            android:id="@+id/image"
+            android:layout_margin="5dp"
+            android:scaleType="centerCrop"
+
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image"
+           android:layout_marginTop="5dp"
+            android:textSize="20sp"
+            android:text="Homestay Name"
+            android:textStyle="bold"
+
+            android:id="@+id/name"
+            android:layout_marginStart="15dp"
+            android:textColor="@color/secondcolor"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name"
+            android:textSize="20sp"
+            android:id="@+id/address"
+            android:layout_marginStart="15dp"
+            android:text="Homestay Address"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/secondcolor"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/address"
+
+            android:id="@+id/layoutone"
+            android:orientation="horizontal"
+            android:layout_marginBottom="5dp"
+            >
+            <TextView
+                android:drawablePadding="5dp"
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="15dp"
+                android:textStyle="bold"
+                android:id="@+id/price"
+                android:padding="5dp"
+                android:drawableStart="@drawable/ic_price_tag"
+                android:textColor="@color/colorText"
+                android:background="@drawable/price_button"
+                android:layout_marginEnd="20dp"
+
+                />
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:padding="5dp"
+                android:id="@+id/desti"
+                android:drawableStart="@drawable/locate"
+                android:background="@drawable/button"
+                android:drawablePadding="5dp"
+                android:textStyle="bold"
+
+                android:textColor="@color/colorText"
+
+
+                />
+
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_below="@+id/layoutone"
+            android:background="#DAE0E2"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="About Homestay"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="30dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+
+                    android:textColor="@color/colorAccent"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                   android:padding="30dp"
+                    android:textColor="#000000"
+                    android:background="@drawable/textback"
+                    android:textSize="20sp"
+                    android:id="@+id/description"
+                    android:text="The treat to lage Retreat all about. Suk Heem is a Limboo Tribe word means a new home and Sikkim once was known as Suk Heem. The second Queen of Sikkim being from a Limboo community named Her country as Suk Heem while the capital was shifted from Yuksam to Rabdentse. Darap village which is less than 7 kms from Pelling."
+
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Amenities"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginStart="30dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@drawable/textback"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                       android:layout_marginTop="5dp"
+                        android:textSize="20sp"
+                        android:padding="30dp"
+                        android:id="@+id/facilities"
+                        android:textColor="#000000"
+                        android:text="Sight Seeing around Pelling and Kechoperi Lake : The Sightseeing covers places like Pemayangtse Monastery, Rabdentse Ruins, Rimbi Water Falls, Kanchenzonga Waterfalls and Kechoperi Lake. Village Walk and One day Hike : Walks around Darap and its neighboring villages. One Day hike to Rani Dhunga throught the beautiful forest path."
+                        />
+
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="No of persons"
+                    android:layout_marginTop="5dp"
+
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    />
+            <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:elevation="8dp"
+                app:textSize="16sp"
+                app:finalNumber="30"
+                android:id="@+id/number"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+
+                >
+
+
+
+            </com.cepheuen.elegantnumberbutton.view.ElegantNumberButton>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/button"
+                    android:text="Add To Cart List"
+                    android:padding="20dp"
+                    android:textColor="@color/colorText"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="10dp"
+                    android:id="@+id/add_to_cart"
+                    />
+
+
+            </LinearLayout>
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>

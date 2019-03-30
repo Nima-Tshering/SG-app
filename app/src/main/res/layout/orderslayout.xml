@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimaryDark"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="160dp"
+            android:id="@+id/orderusername"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="User Name"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+
+
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/orderusernumber"
+            android:text="Phone Number"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+
+
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:id="@+id/orderarrival"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Arrival Date"
+            android:layout_below="@+id/orderusername"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+
+
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/orderdeparture"
+            android:text="Departure Date"
+            android:layout_below="@+id/orderusernumber"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+
+
+            />
+
+        <TextView
+            android:id="@+id/ordertotalprice"
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/orderarrival"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="115dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="117dp"
+
+            android:layout_marginBottom="10dp"
+            android:gravity="center"
+            android:text="Total Charges"
+
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/orderemail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ordertotalprice"
+
+
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="25dp"
+            android:gravity="center"
+
+            android:layout_marginBottom="10dp"
+
+            android:text="Emial Id"
+
+            android:textColor="@color/colorText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="160dp"
+            android:id="@+id/booktime"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Book Time"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_below="@+id/orderemail"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp"
+
+            />
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/bookdate"
+            android:text="Book Date"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/orderemail"
+            android:textAlignment="viewEnd"
+            android:layout_alignParentEnd="true"
+            android:textColor="@color/colorText"
+            android:textStyle="bold"
+
+
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/bookdate"
+            android:layout_margin="20dp"
+            android:padding="10dp"
+            android:id="@+id/show_all_homestay"
+            android:background="@drawable/button"
+            android:textColor="@color/colorText"
+            android:text="Show this order homestay "
+            android:textSize="20sp"
+
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "946118367260",
+    "firebase_url": "https://sikkimgenuine.firebaseio.com",
+    "project_id": "sikkimgenuine",
+    "storage_bucket": "sikkimgenuine.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946118367260:android:6a64e25f75265e38",
+        "android_client_info": {
+          "package_name": "sikkimgenuine.com.sikkimgenuine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946118367260-m80u1bg7jag2pp0dnrq7dls7rrombm33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "sikkimgenuine.com.sikkimgenuine",
+            "certificate_hash": "181777f33ffd4ca6ad054979a3040cc6efbd2778"
+          }
+        },
+        {
+          "client_id": "946118367260-e3p9s45sq7tjcoa9k23mc62ph07qm8vt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAm5RHKjGxXEsy9h5RyK_M8-HtrGSmlq-A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946118367260-e3p9s45sq7tjcoa9k23mc62ph07qm8vt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

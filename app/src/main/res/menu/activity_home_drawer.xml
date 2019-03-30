@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/allhome"
+            android:icon="@drawable/ic_home_black"
+            android:title="All Homestay"
+            />
+
+
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/nav_cart"
+            android:title="Saved Homestay" />
+        <item
+            android:id="@+id/gallery"
+            android:icon="@drawable/ic_photo"
+            android:title="Gallery"
+            
+            />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_search"
+            android:title="Search By Destinations" />
+        <item
+            android:id="@+id/nav_searchHome"
+            android:icon="@drawable/ic_search"
+            android:title="Search By Homestay Name" />
+        <item
+            android:id="@+id/aboutus"
+            android:icon="@drawable/ic_people_black"
+            android:title="About Us"
+            />
+        <item
+            android:id="@+id/cont"
+            android:icon="@drawable/ic_phone_black_24dp"
+            android:title="Contact Us"
+            />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_setting"
+            android:title="Settings"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="Logout"
+            />
+
+    </group>
+
+
+
+
+
+</menu>
